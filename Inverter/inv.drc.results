@@ -1,0 +1,14 @@
+*drcRulesFile: /afs/iitd.ac.in/user/e/ee/een212025/IEC_lab1/drc/_G-DF-LOGIC_MIXED_MODE65N-1P8M1T0F1U-LL-Calibre-drc-1.18_P1_
+*drcRunDir: /afs/iitd.ac.in/user/e/ee/een212025/IEC_lab1/drc
+*drcLayoutPaths: inv.calibre.db
+*drcLayoutPrimary: inv
+*drcLayoutLibrary: lab_pct
+*drcLayoutView: layout
+*drcLayoutGetFromViewer: 1
+*drcResultsFile: inv.drc.results
+*drcSummaryFile: inv.drc.summary
+*drcDFMDefaultsResultsFile: inv.dfmDefaults.db
+*cmnWarnLayoutOverwrite: 0
+*cmnFDILayoutLibrary: lab_pct
+*cmnFDILayoutView: layout
+*cmnFDIDEFLayoutPath: inv.def
