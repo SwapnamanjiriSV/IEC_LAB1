@@ -1,0 +1,30 @@
+************************************************************************
+* auCdl Netlist:
+*
+* Library Name:  lab_pct
+* Top Cell Name: nand_std
+* View Name:     schematic
+* Netlisted on:  Sep 15 22:23:26 2021
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: lab_pct
+* Cell Name:    nand_std
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT nand_std A B GND OUT VDD
+*.PININFO A:I B:I OUT:O GND:B VDD:B
+MPM1 OUT B VDD VDD P_12_LLRVT W=400e-9 L=60n M=1
+MPM0 OUT A VDD VDD P_12_LLRVT W=400e-9 L=60n M=1
+MNM1 net19 B GND GND N_12_LLRVT W=200e-9 L=60n M=1
+MNM0 OUT A net19 GND N_12_LLRVT W=200e-9 L=60n M=1
+.ENDS
+
